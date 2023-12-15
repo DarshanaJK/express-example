@@ -8,7 +8,7 @@ const customer = require('./routes/customer')
 
 //middleware
 app.use(express.json());
-app.use('/customers', customer);
+app.use('/api/customers', customer);
 
 
 
